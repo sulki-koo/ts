@@ -5,33 +5,33 @@
     - 변수명: 타입
 */
 // string
-var hello = 'hello';
+let hello = 'hello';
 console.log(hello);
 // number
-var num = 10;
+let num = 10;
 // boolean
-var bool = true;
+let bool = true;
 // array
-var arr1 = ['홍길동', '강감찬', '이순신'];
-var arr2 = ['홍길동', '강감찬', '이순신'];
+let arr1 = ['홍길동', '강감찬', '이순신'];
+let arr2 = ['홍길동', '강감찬', '이순신'];
 // object
-var obj = {
+let obj = {
     name: '홍길동',
     age: 20
 };
 // tuple
 // 고정 길이, 요소들의 타입이 미리 정의된 배열
-var tup = ['홍길동', 20];
+let tup = ['홍길동', 20];
 // any
 // 어떤 타입도 모두 허용
 // any타입을 쓰면 타입스크립트를 사용할 이유가 없음
 // 어떤 타입인지 명확히 알 수 없는 경우에 한해 사용
-var at = 100;
+let at = 100;
 at = '백';
 at = [1, 2, 3];
 // undifined
 // undefined는 타입이기도 하고 값이기도 함
-var und = undefined;
+let und = undefined;
 // function에서의 타입
 // 함수에서 파라미터 타입, 반환 타입을 지정해 줘야 함
 function getStr(str) {
@@ -50,7 +50,3 @@ function getInfo2(name, age, hobby) {
 }
 getInfo2('홍길동', 20, '축구');
 getInfo2('홍길동', 20);
-
-const rawText = "첫 번째 줄입니다.\n두 번째 줄입니다.";
-const htmlText = rawText.replace(/\n/g, "<br>");
-document.getElementById("output").innerHTML = htmlText;
