@@ -50,3 +50,7 @@ function getInfo2(name, age, hobby) {
 }
 getInfo2('홍길동', 20, '축구');
 getInfo2('홍길동', 20);
+
+const rawText = "첫 번째 줄입니다.\n두 번째 줄입니다.";
+const htmlText = rawText.replace(/\n/g, "<br>");
+document.getElementById("output").innerHTML = htmlText;
