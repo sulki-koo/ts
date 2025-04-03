@@ -6,7 +6,7 @@
 // 변수 초기화 시 타입 추론
 let str1; // any타입으로 추론
 let str2 = 'hello'; // str2의 타입은 string타입으로 추론
-let num2 = 100; // num2의 타입은 number타입으로 추론
+let num4 = 100; // num2의 타입은 number타입으로 추론
 
 // 함수 반환값 타입 추론
 // 함수의 반환타입이 number가 확실하므로 명시하지 않음
